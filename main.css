@@ -1,17 +1,15 @@
 body {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: raleway, sans-serif;
+    font: 400 15px raleway, sans-serif;
+    line-height: 1.8;
 }
+
 h2 {
     font-size: 24px;
     text-transform: uppercase;
     color: #303030;
-    font-weight: 400;
-    margin-bottom: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
 }
-
 
 h4 {
     font-size: 19px;
@@ -26,17 +24,11 @@ h4 {
     margin: 20px auto;
 }
 
-#testimonials {
-    background-color:#db9464;
-    padding: 30px;
-    color: #fff;
-    border-radius: 6px;
-}
-
-#hero {
-    background-color: #44d997;
+.jumbotron {
+    background-color: #123;
     color: #fff;
     padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
 }
 
 .container-fluid {
@@ -44,26 +36,31 @@ h4 {
 }
 
 .bg-grey {
-    background-color: #bdedf0;
+    background-color: #f2f2f2;
     text-align: justify;
 }
 
+.logo-small {
+    color: #123;
+    font-size: 50px;
+}
+
 .logo {
-    color: #f0686d;
+    color: #123;
     font-size: 200px;
 }
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #fff;
+    color: #123;
 }
 
 .carousel-indicators li {
-    border-color: #fff;
+    border-color: #123;
 }
 
 .carousel-indicators li.active {
-    background-color: #fff;
+    background-color: #123;
 }
 
 .item h4 {
@@ -78,17 +75,13 @@ h4 {
     font-style: normal;
 }
 
-.content {
+#justify {
   text-align: justify;
-  background-color: #c8ffc0;
-  padding: 20px;
-  border : 1px solid #c8ffc0;
-  border-radius: 7px;
 }
 
 .navbar {
     margin-bottom: 0;
-    background-color: #44d997;
+    background-color: #123;
     border: 0;
     font-size: 12px;
     line-height: 1.42857143;
@@ -103,28 +96,28 @@ h4 {
 
 #navbar a:hover {
     background-color: #fff;
-    color:#44d997;
+    color: #123;
 }
 
 .info {
     font-size: 16px;
     text-align: justify;
-    border: 2px solid #44d997;
+    border: 2px solid #123;
     border-radius: 6px;
     color: #fff;
-    background-color: #44d997;
+    background-color: #123;
     padding: 5px 10px;
     margin-bottom: 30px;
     font-family: raleway, sans-serif
 }
 
-#footer {
-    background-color: #44d997;
-    font-family: raleway, sans-serif;
-    padding-bottom: 40px;
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #123;
 }
 
-}
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
