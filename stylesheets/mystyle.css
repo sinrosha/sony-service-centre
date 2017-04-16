@@ -1,23 +1,41 @@
+
+h2,
+h4 {
+    color: #303030;
+}
+
+.item h4,
+h4 {
+    line-height: 1.375em;
+    font-weight: 400;
+}
+
+.item h4,
+h2,
+h4 {
+    font-weight: 400;
+}
+
+.bg-grey,
+.content {
+    text-align: justify;
+}
+
 body {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: raleway, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: raleway, sans-serif;
 }
 
 h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #303030;
-    font-weight: 400;
     margin-bottom: 20px;
 }
 
 h4 {
     font-size: 19px;
-    line-height: 1.375em;
-    color: #303030;
-    font-weight: 400;
     margin-bottom: 30px;
 }
 
@@ -26,14 +44,14 @@ section img {
 }
 
 #testimonials {
-    background-color:#f56678;
+    background-color: #f56678;
     padding: 30px;
     color: #fff;
     border-radius: 50px 140px;
 }
 
 #hero {
-    background-color: #44d997;
+    background-color: #ae2a2a;
     color: #fff;
     padding: 100px 25px;
 }
@@ -44,7 +62,6 @@ section img {
 
 .bg-grey {
     background-color: #bdedf0;
-    text-align: justify;
 }
 
 .logo {
@@ -52,7 +69,8 @@ section img {
     font-size: 200px;
 }
 
-.carousel-control.right, .carousel-control.left {
+.carousel-control.left,
+.carousel-control.right {
     background-image: none;
     color: #fff;
 }
@@ -67,8 +85,6 @@ section img {
 
 .item h4 {
     font-size: 20px;
-    line-height: 1.375em;
-    font-weight: 400;
     font-style: italic;
     margin: 70px 0;
 }
@@ -78,15 +94,17 @@ section img {
 }
 
 .content {
-  text-align: justify;
-  background-color: #c8ffc0;
-  padding: 20px;
-  border-radius: 20px 50px;
+    background-color: #c8ffc0;
+    padding: 20px;
+    border-radius: 20px 50px;
+}
+
+.navbar {
+    background-color: #ae2a2a;
 }
 
 .navbar {
     margin-bottom: 0;
-    background-color: #44d997;
     border: 0;
     font-size: 12px;
     line-height: 1.42857143;
@@ -101,23 +119,36 @@ section img {
 
 #navbar a:hover {
     background-color: #fff;
-    color:#44d997;
+    color: #44d997;
 }
 
 #footer {
-    background-color: #44d997;
     font-family: raleway, sans-serif;
     padding-bottom: 40px;
+    background-color: 	#6cc67a;
 }
 
-@media screen and (max-width: 768px) {
-  .col-sm-4 {
-    text-align: center;
-    margin: 25px 0;
-  }
+#blog {
+    margin-top: 100px;
+
+
 }
-@media screen and (max-width: 480px) {
-  .logo {
-      font-size: 150px;
-  }
+
+#blog p {
+    text-align: justify;
+    margin: 40px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+@media screen and (max-width:768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .logo {
+        font-size: 150px;
+    }
 }
