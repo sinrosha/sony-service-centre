@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Raleway');
 h2,
 h4 {
     color: #303030;
@@ -44,35 +44,49 @@ section img {
 }
 
 #testimonials {
-    background-color: #f56678;
+    background-color: #a5f4f6;
     padding: 30px;
-    color: #fff;
-    border-radius: 50px 140px;
+    color: red;
+    border-radius: 100px 140px;
+    margin: 100px 0;
 }
 
 #hero {
-    background-color: #ae2a2a;
-    color: #fff;
+    background: #19AAD1;
+    color:  white;
     padding: 100px 25px;
+    font: 400 20px "raleway";
 }
+
+#hero h1 {
+   font: 600 50px "pt sans";
+   text-transform: uppercase;
+}
+
+
+
+.navbar {
+    background-color: #E33946;
+}
+
 
 .container-fluid {
     padding: 60px 50px;
 }
 
+
 .bg-grey {
-    background-color: #bdedf0;
+    background-color: #a4ffca;
 }
 
 .logo {
-    color: #f0686d;
+    color: #E33946;
     font-size: 200px;
 }
 
 .carousel-control.left,
 .carousel-control.right {
     background-image: none;
-    color: #fff;
 }
 
 .carousel-indicators li {
@@ -94,21 +108,17 @@ section img {
 }
 
 .content {
-    background-color: #c8ffc0;
+    background-color: 	#fffcb4;
     padding: 20px;
     border-radius: 20px 50px;
 }
 
-.navbar {
-    background-color: #ae2a2a;
-}
 
 .navbar {
     margin-bottom: 0;
     border: 0;
     font-size: 12px;
-    line-height: 1.42857143;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
 }
@@ -125,7 +135,8 @@ section img {
 #footer {
     font-family: raleway, sans-serif;
     padding-bottom: 40px;
-    background-color: 	#6cc67a;
+    background-color:  #E33946;
+    color:white;
 }
 
 #blog {

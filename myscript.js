@@ -1,8 +1,8 @@
 
 
 $(document).ready(function() {
-  $("h1").addClass("animated bounceInLeft");
+  $("h1").addClass("animated bounceIn");
   $(window).scroll( function() {
-    $("h2, li, h4").addClass("animated bounceInLeft");
+    $("h2, h4").addClass("animated bounceInLeft");
   });
 });
